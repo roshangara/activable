@@ -1,0 +1,42 @@
+{
+  "name": "roshangara/activable",
+  "description": "make activable database with lumen and laravel",
+  "homepage": "https://github.com/roshangara/activable",
+  "keywords": [
+    "laravel",
+    "lumen",
+    "roshangara",
+    "activable"
+  ],
+  "support": {
+    "issues": "https://github.com/roshangara/activable/issues",
+    "source": "https://github.com/roshangara/activable"
+  },
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^5.0",
+    "illuminate/database": "^5.0",
+    "roshangara/eloquent-helper": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Roshangara\\Activable\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Roshangara\\Activable\\ActivableServiceProvider"
+      ]
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohammad Taghikhani",
+      "email": "mroshangara@gmail.com",
+      "homepage": "http://roshangara.ir"
+    }
+  ],
+  "minimum-stability": "dev"
+}
